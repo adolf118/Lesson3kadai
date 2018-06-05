@@ -19,7 +19,7 @@ class Human extends Animal {
 
     @Override
     public void say() {
-        Log.d("homework", this.name + "(" + this.age + "歳)");
+        Log.d("homework", "私の名前は" + this.name + "です。" + "年は" + this.age + "です。");
     }
 
     public void think() {
